@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+/* Nav */
+
+header {
+  border-bottom: solid black 4px;
+}
+
+.main-header {
+  width: 100vw;
+  background: #262a10;
+  padding: 10px;
+  font-family: "Pattaya", sans-serif;
+}
+
+.main-nav {
+  font-family: "Pattaya", sans-serif;
+}
+
+.header-list li {
+  display: inline-block;
+}
+
+.cta {
+  background: orange;
+  padding: 4px;
+  border-radius: 8px;
+  border: solid black 2px;
+  border-bottom: none;
+}
+
+.cta:hover {
+  background: white;
+  color: orange;
+}
+
+.header-list a {
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+}
+
+.nav-sides:hover {
+  color: orange;
+  border-bottom: solid black 3px;
+}
+
+.badge:hover {
+  color: orange;
+}
+
+/* End Nav */
+/* Start Recipe list */
+
+.burger-recipes-list {
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(40px, auto);
+}
+
+.box h2 {
+  color: orange;
+  padding: 8px;
+}
+.box {
+  border-radius: 5px;
+  margin: 10px;
+  height: fit-content;
+  border: solid black 4px;
+  background-color: #262a10;
+}
+/* End Recipe list */
+
+/* cheeseburger */
+#cheeseburger img {
+  margin: 10px;
+  border: solid black 5px;
+  object-fit: cover;
+  height: 80%;
+  width: 45%;
+}
+
+#cheeseburger p {
+  height: fit-content;
+  font-weight: 600;
+  font-size: 14px;
+  float: right;
+  background: #a9714b;
+  padding: 10px;
+  margin: 5px;
+  width: 45%;
+  border-radius: 5px;
+  border: solid black 5px;
+}
+/* End cheeseburger */ ;
+
+@Media all and (max-width: 500px) {
+  #cheeseburger p {
+    height: fit-content;
+    font-weight: 600;
+    font-size: 14px;
+    float: right;
+    background: #a9714b;
+    padding: 10px;
+    margin: 5px;
+    width: 45%;
+    border-radius: 5px;
+    border: solid black 5px;
+  }
+}
