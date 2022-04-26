@@ -70,24 +70,7 @@ p {
   z-index: 100;
 } */
 
-.welcome > h2 {
-  font-family: 'Oswald', sans-serif;
-}
-
-.welcome {
-  width: 320px;
-  left: 450px;
-  font-size: 20px;
-  color: white;
-  border: solid black 6px;
-  padding: 10px;
-  border-radius: 10px;
-  background: #262a10;
-}
-/* End Header */
-
-/* Welcome background */
-.specials-background {
+.burger-background {
   max-width: 480px;
   height: 275px;
   max-width: 100%;
@@ -103,7 +86,23 @@ p {
 .cover {
   background-color: black;
 }
-/* End Welcome */
+
+.welcome > h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.welcome {
+  width: 320px;
+  left: 450px;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  border: solid black 6px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #262a10;
+}
+/* End Header */
 
 /* Sides */
 /* .section-cards { */
